@@ -1,11 +1,12 @@
 package slacksend
 
 import (
+	"encoding/json"
+	"fmt"
+
 	"github.com/TIBCOSoftware/flogo-lib/core/activity"
 	"github.com/TIBCOSoftware/flogo-lib/logger"
 	"github.com/nlopes/slack"
-	"fmt"
-	"encoding/json"
 )
 
 // log is the default package logger
@@ -37,7 +38,7 @@ func (a *SlackSendActivity) Eval(context activity.Context) (done bool, err error
 
 	api := slack.New(accesstoken)
 	params := slack.PostMessageParameters{}
-	
+
 	attachments := context.GetInput("Attachment").(string)
 	if len(attachments) > 0 {
 		attachStruct := make(map[string][]slack.Attachment)
