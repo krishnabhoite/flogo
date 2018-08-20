@@ -1,7 +1,7 @@
 {
   "name": "slackslashcmd",
   "type": "flogo:trigger",
-  "ref": "https://github.com/krishnabhoite/flogo/tree/master/slackslashcmd",
+  "ref": "https://github.com/krishnabhoite/flogo/slackslashcmd",
   "version": "0.0.1",
   "title": "Slack Slash Command Trigger",
   "author": "Krishna Bhoite <krishna.bhoite@gmail.com>",
