@@ -58,7 +58,7 @@ Inputs and Outputs:
             "name": "Send Slack message",
             "description": "Publish a message to a Slack Channel",
             "activity": {
-              "ref": "github.com/pawarvishal123/slacksend",
+              "ref": "github.com/krishnabhoite/slacksend",
               "input": {
                 "AccessToken": "<<YOUR-ACCESS-TOKEN>>",
                 "Channel": "general",
