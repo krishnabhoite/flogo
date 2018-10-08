@@ -5,7 +5,7 @@ You need to make sure that the slack API access token have enough permissions to
 ## Installation
 ### Flogo CLI
 ```bash
-flogo install github.com/pawarvishal123/slacksend
+flogo install github.com/krishnabhoite/slacksend
 ```
 
 ## Schema
