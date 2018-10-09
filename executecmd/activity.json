@@ -1,11 +1,11 @@
 {
   "name": "executecmd",
   "type": "flogo:activity",
-  "ref": "github.com/krishnabhoite/executecmd",
+  "ref": "github.com/krishnabhoite/flogo/executecmd",
   "version": "0.0.1",
   "title": "Execute Command",
   "description": "Execute Command Activity",
-  "homepage": "https://github.com/krishnabhoite/executecmd",
+  "homepage": "https://github.com/krishnabhoite/flogo/executecmd",
   "inputs":[
     {
       "name": "command",
