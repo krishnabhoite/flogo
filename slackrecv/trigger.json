@@ -1,0 +1,27 @@
+{
+  "name": "slackrecv",
+  "type": "flogo:trigger",
+  "ref": "https://github.com/krishnabhoite/flogo/slackrecv",
+  "version": "0.0.1",
+  "title": "Receive Slack RTM Messages",
+  "author": "Krishna Bhoite <kbhoite@tibco.com>",
+  "description": "Slack RTM Message Trigger",
+  "output": [
+    {
+      "name": "message",
+      "type": "string"
+    }
+  ],
+  "handler": {
+    "settings": [{
+      "name": "AccessToken",
+      "type": "string",
+	  "required":"true"
+    },
+    {
+      "name": "Channel",
+      "type": "string",
+	  "required":"true"
+    }]
+  }
+}
