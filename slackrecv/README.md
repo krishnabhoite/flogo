@@ -5,7 +5,7 @@ Flogo trigger activity for Slack RTM message receiver
 ## Installation
 
 ```bash
-flogo install github.com/pawarvishal123/slackrecv
+flogo install github.com/krishnabhoite/flogo/slackrecv
 ```
 
 ## Schema
@@ -44,7 +44,7 @@ Provide access token and channel name to receive message from slack channel via 
   "triggers": [
     {
       "id": "receive_slack_rtm_messages",
-      "ref": "https://github.com/pawarvishal123/slackrecv",
+      "ref": "https://github.com/krishnabhoite/flogo/slackrecv",
       "name": "Receive Slack RTM Messages",
       "description": "Slack RTM Message Trigger",
       "settings": {},
